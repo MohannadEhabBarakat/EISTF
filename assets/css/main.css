@@ -1,0 +1,139 @@
+ html,body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+        min-height: 100%;
+    }
+    nav{
+        display: block;
+        margin: auto; 
+        width: 70%;
+        background-color: #0d0d4a;
+        height: auto;
+        margin-top: 50px;
+        border-radius: 0px 50px 50px 0px;
+    }
+    nav div{display: inline-block;}
+    #logo-div{
+        background-color: #FF6E23 ;
+        border: 2px solid #0d0d4a;
+        border-radius: 50%;
+        margin-left: -57px;
+        padding: 10px;
+    }
+    #MM{
+        display: inline-block;
+        margin-left: 40px;
+        position: relative;
+        top: -40;
+        font-size: 25px;
+        width: 80%;
+    }
+    #MM div:not(#firstMM){
+        margin-left: 15px;
+        padding-left: 15px;
+        border-left: 2px solid;
+        color: #fff;
+    }
+    #firstMM{
+        margin-left: 15px;
+        padding-left: 15px;
+        color: #fff;
+    }
+    #MM a{
+        color: #fff;
+        text-decoration: none;
+    }
+    #MM a:active{
+        color: #fff;
+    }
+    #mm a:hover{
+        color: gold;
+    }
+    nav i{
+        float: right;
+        color: #fff;
+    }
+    nav i:hover{
+        color: darkgray;
+        cursor:pointer;
+    }
+    #expand{
+        display: none;
+    }
+#first {
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+body {
+    background-color: #757575;
+}
+
+#second {
+    padding-top: 100px;
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+
+
+h1 {
+    display: inline;
+    color: #0d0d4a;
+    text-decoration: underline;
+}
+
+
+
+hr.style13 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+#img1 {
+    width: 220px;
+    height: 170px;
+    border-radius: 30px;
+}
+#img2 {
+    width: 220px;
+    height: 170px;
+    border-radius: 30px;
+    margin-top:20px
+}
+#img3 {
+    width: 220px;
+    height: 170px;
+    border-radius: 30px;
+}
+p {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#hr1 {
+    margin-top: 40px;
+}
+.fa fa-briefcase {
+    padding-top: 5px;
+}
+#body_main{
+    background-image: url('../images/ISEF.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second i {
+    color: rgb(33, 144, 0);
+}
